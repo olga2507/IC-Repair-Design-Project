@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+        max-width: 100%;
+        background-size: 100%;
+      }
+    header {
+        max-width: 100%;
+    }
+    nav,
+    .button,
+    .menu{
+        display: none;
+    }
+    .container{
+        max-width: 100%;
+    }
+
+    .button-1, .button-2 {
+        width: 338px;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .button-1 {
+        margin-bottom: 20px;
+    }
+
+
+        
+}

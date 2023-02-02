@@ -1,29 +1,186 @@
-@media (max-width: 768px) {
+@media (max-width:768px) {
     body {
-        margin: 0;
+        margin: 0 auto;
         max-width: 100%;
-        background-size: 100%;
-      }
+    }
     header {
         max-width: 100%;
     }
-    nav,
-    .button,
-    .menu{
-        display: none;
+
+    .hero {
+        width: 768px;
+        height: auto;
+        padding-top: 194px;
+        padding-right: 627.89px;
+        padding-bottom: 208px;
+        padding-left: 134px;
+        margin: 0 auto;
+        display: flex;
     }
+
     .container{
-        max-width: 100%;
+        width: 768px;
+    }
+    nav,
+    .btn-header,
+    .menu,
+    .slider,
+    .section-5,
+    .s6_img1,
+    .s6_img2,
+    .s6_img3,
+    .s6_img4,
+    .section-7{
+        display: none;
     }
 
     .button-1, .button-2 {
         width: 338px;
         margin: 0;
-        margin-top: 20px;
     }
 
     .button-1 {
+        margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .img2 {
+        margin-left: -372px;
+        width: 600px;
+        height: 400px;
+        margin-top: 148px;
+        padding: 0;
+    }
+
+    .text_s2_p {
+        margin-top: 400px;
+    }
+
+    .section-3 {
+        background-color: #131313;
+    }
+
+    .control {
+        margin-top: -200px;
+    }
+
+    .image_OC img{
+        width: 600px;
+        height: 300px;
+    }
+
+    .play {
+        margin-top: 50px;
+    }
+
+    .trait {
+        margin-top: 201px;
+        
+    }
+
+    .text-S3 {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 169.8%;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+
+    .section_input {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+
+    .form {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+        line-height: 138.72%;
+        color: #FFFFFF;
+    }
+
+    .input {
+        background-color: #131313;
+        border-color: rgba(54, 54, 54, 0.3);
+        width: 600px;
+        border-width: 2px;
+      }
+
+    .one-checkbox {
+        margin-top: 20px;
+        justify-content: flex-start;
+        margin-left: 40px;
+        margin-top: -50px;
+      }
+
+    .text_checkbox {
+        font-size: 14px;
+        line-height: 163.68%;
+        color: #FFFFFF;
+    }
+
+    .button-input {
+        width: 100px;
+        margin-top: 70px;
+    }
+
+    .img_section-4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img_TR1 img, .img_TR2 img, .img_TR3 img {
+        width: 750px;
+        height: 780px;
+    }
+
+    .img_TR1 {
+        margin: 0;
+    }
+
+    .s4-img {
+        margin-top: 50px;
+    }
+
+    .ul-s-1, .ul-s-2, .ul-s-3 {
+         margin-left: 0;
+    }
+
+    .ul-s4 {
+        width: 330px;
+        height: 286px;
+     
+    }
+
+
+
+
+
+
+    .section-6 {
+        width: 768px;
+    }
+
+
+
+
+
+    .s8_questions {
+        width: 756px;
+        height: 445px;
+    }
+
+    .s8_map img{
+        width: 756px;
+        height: 445px;
     }
 
 

@@ -1,6 +1,7 @@
 @media (max-width:768px) {
     body {
         margin: 0 auto;
+        width: 768px;
         max-width: 100%;
     }
     header {
@@ -8,18 +9,20 @@
     }
 
     .hero {
-        width: 768px;
-        height: auto;
-        padding-top: 194px;
-        padding-right: 627.89px;
-        padding-bottom: 208px;
-        padding-left: 134px;
-        margin: 0 auto;
         display: flex;
+        justify-content: flex-start;
+        padding: 50px 0 0 0px;
+
     }
 
+    .title {
+        width: 550px;
+    }
+
+
     .container{
-        width: 768px;
+        max-width: 100%;
+        margin: 0 18px;
     }
     nav,
     .btn-header,
@@ -34,6 +37,10 @@
         display: none;
     }
 
+    .text {
+        margin: 0;
+    }
+
     .button-1, .button-2 {
         width: 338px;
         margin: 0;
@@ -44,16 +51,21 @@
         margin-bottom: 20px;
     }
 
-    .img2 {
-        margin-left: -372px;
+    
+
+    .img-grid img {
         width: 600px;
-        height: 400px;
-        margin-top: 148px;
-        padding: 0;
     }
 
-    .text_s2_p {
-        margin-top: 400px;
+    .container-grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'g-text' 
+        'img' 
+        'paragraph' 
+        'characteristics';
+        margin: 0;
+
     }
 
     .section-3 {

@@ -72,6 +72,12 @@
         background-color: #131313;
     }
 
+    .section_input {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+      }
+
     .control {
         margin-top: -200px;
     }

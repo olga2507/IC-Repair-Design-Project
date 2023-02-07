@@ -151,6 +151,7 @@ body * {
 .but-text {
     color: #FFFFFF;
     text-decoration: none;
+    font-style: normal;
 }
 
 
@@ -234,6 +235,9 @@ body * {
 
   .img-grid {
     grid-area: img;
+  }
+
+  .img-grid img {
     width: 774px;
     Height: 530px;
   }
@@ -381,10 +385,33 @@ body * {
 }
 
 .section_input {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+  'name tel submit' 
+  'checkbox checkbox checkbox'; 
+  grid-column-gap: 58px;
+  grid-row-gap: 37px;
+  width: 285px;
+  padding-left: 365px;
+}
+
+.name {
+  grid-area: name;
+}
+
+.tel {
+  grid-area: tel;
+}
+
+.s3-b-in {
+  grid-area: submit;
+}
+
+.one-checkbox {
   display: flex;
-  justify-content: space-between;
-  margin-left: 400px;
-  width: 769px;
+  grid-area: checkbox;
+  justify-content: center;
 }
 
 .input {
@@ -417,13 +444,9 @@ body * {
   line-height: 27px;
   padding: 11px 75px;
   font-style: normal;
+  width: 200px;
 }
 
-.one-checkbox {
-  display: flex;
-  justify-content: center;
-  margin-top: 39px;
-}
 
 .label {
 cursor: pointer;
@@ -490,9 +513,12 @@ align-items: center;
 
 .img_TR1 {
   margin-left: 100px;
+
+}
+
+.img_TR1 img, .img_TR2 img, .img_TR3 img {
   width: 392px;
   height: 421px;
-
 }
 
 .img_TR3 {
@@ -861,6 +887,7 @@ align-items: center;
   justify-content: space-between;
   width: 1256px;
   padding-top: 39px;
+  padding-left: 20px;
   margin: 0 auto;
 }
 
@@ -1084,6 +1111,12 @@ margin-top: -90px;
   margin-left: 22px;
 }
 
+.section-8_adress {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .s8-text-adress {
   font-family: 'Yeseva One';
   font-style: normal;
@@ -1094,21 +1127,28 @@ margin-top: -90px;
   text-transform: uppercase;
   color: #E3B873; 
   margin: 0px;
+  margin-left: 46px;
 }
 
 .s8-adress {
   width: 589px;
   height: 51px;
   margin-top: 52px;
+  margin-left: 172px;
 }
 
 .s8-icon {
   margin-top: 26px;
   margin-bottom: 43px;
+  margin-left: 64px;
 }
 
 .s8-mail {
   margin-right: 15px;
+}
+
+.s8_map {
+  margin-top: 100px;
 }
 
 
